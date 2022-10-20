@@ -55,6 +55,16 @@ cart.forEach((cart) => {
 console.log(total);
 
 
+//accumelator, accumulation
+let cartTotal = cart.reduce((acc,value) =>
+    acc + cartItem.quantity*cartItem.unitPrice,
+    0,
+) 
+console.log(cartTotal)
 
+let cartQuantityTotal = cart.reduce((acc,cartItem) => acc + cartItem.quantity,
+0,
+)
 
-
+//bad tick
+console.log()
