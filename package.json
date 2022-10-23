@@ -3,8 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node mapFilterReduce.js"
+    "start": "node scope.js",
+    "start-loops": "node loops.js",
+    "start-scope": "node scope.js",
+    "start-restAndSpread": "node restAndSpread.js",
+    "start-destructuring": "node destructuring.js",
+    "start-oop": "node oop.js",
+    "start-oop2": "node oop2.js",
+    "start-oop3": "node oop3.js",
+    "start-oopOdev": "node oopOdev.js"
   },
   "keywords": [],
   "author": "",
