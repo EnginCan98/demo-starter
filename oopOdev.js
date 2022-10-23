@@ -1,4 +1,4 @@
-class Courses  {  
+class Course  {  
   constructor(courseId,categoryId,categoryName,courseName,teacher,price,info,percentage){
       this.courseId = courseId
       this.categoryId = categoryId;
@@ -11,7 +11,7 @@ class Courses  {
   }
 }
 
-class Categories  {  
+class Category  {  
   constructor(categoryId,categoryName){
       this.categoryId = categoryId;
       this.categoryName = categoryName;
@@ -54,6 +54,9 @@ class CourseService  {
   list(){
     console.log("kurs listelendi");
   }
+  getAll(){
+    console.log("kurslar getirildi")
+  }
   getById(){
     console.log("Id'ye göre kurslar listelendi")
   }
@@ -87,6 +90,9 @@ class CourseService  {
     delete(){
       console.log("kullanıcı silindi");
     }
+    getAll(){
+      console.log("kullanıcılar getirildi")
+    }
     getById(){
       console.log("kullanıcı id ye göre getirildi")
     }
@@ -104,6 +110,9 @@ class CourseService  {
     }
     delete(){
       console.log("eğitmen silindi");
+    }
+    getAll(){
+      console.log("eğitmenler getirildi")
     }
     getById(){
       console.log("eğitmen id ye göre getirildi")
